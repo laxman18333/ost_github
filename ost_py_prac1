@@ -1,0 +1,7 @@
+# multiplication table using while loop
+i = 0
+mul_table = int(input("Enter a number:\n"))
+while i<10:
+    i+=1
+    print(f"{mul_table}X{i}={mul_table*i}")
+  
